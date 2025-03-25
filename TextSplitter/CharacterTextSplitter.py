@@ -32,5 +32,5 @@ documents = text_splitter.create_documents(
     metadatas=metadatas,  # 각 문서에 해당하는 메타데이터를 전달.
 )
 print(documents[0])  # 분할된 문서 중 첫 번째 문서를 출력.
-len(documents)
+print(len(documents))
 print(documents[1].metadata)
