@@ -215,3 +215,5 @@ pyrightconfig.json
 # End of https://www.toptal.com/developers/gitignore/api/jupyternotebooks,python
 
 models
+ReAct/data/*
+ReAct/result/*
